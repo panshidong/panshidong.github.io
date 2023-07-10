@@ -52,8 +52,11 @@
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      margin: 0 auto;
-      display: block;
+      margin-right: 20px;
+      float: left;
+    }
+    .description {
+      margin-top: 0;
     }
     
     /* 媒体查询 - 调整布局在小屏幕上更好地适应 */
@@ -64,16 +67,22 @@
       .avatar {
         width: 150px;
         height: 150px;
+        margin-right: 10px;
       }
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>My GitHub Page</h1>
+  </header>
+  
   <main>
     <section>
       <h2>About Me</h2>
-      <img class="avatar" src="myphoto.png" alt="aaa photo">
-      <p>This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.This is a not so brief description about myself.</p>
+      <img class="avatar" src="path/to/photo.jpg" alt="My Photo">
+      <p class="description">This is a brief description about myself.</p>
+      <div style="clear: both;"></div>
     </section>
     
     <section>
